@@ -11,6 +11,7 @@ people = [
 
 #people.sort(key=f)
 
+
 # This lambda is a function used instead of defining a seperate function 
 people.sort(key=lambda person: person["house"])
 
